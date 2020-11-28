@@ -1,6 +1,6 @@
 {
 	"name": "delete-inside",
-	"displayName": "delete-inside",
+	"displayName": "Delete inside",
 	"description": "delete inside vim command without vim",
 	"version": "0.0.1",
 	"engines": {
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:delete-inside.helloWorld"
+		"onCommand:delete-inside.delete"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "delete-inside.helloWorld",
-				"title": "Hello World"
+				"command": "delete-inside.delete",
+				"title": "Delete Inside"
 			}
 		]
 	},
